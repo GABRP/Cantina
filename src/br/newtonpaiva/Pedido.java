@@ -34,7 +34,7 @@ class Pedido {
             } else if (i == ingredientes.size() - 1) {
                 sb.append(" e ");
             } else {
-                sb.append(" com ");
+                sb.append(", ");
             }
             sb.append(ingrediente.getNome());
         }
